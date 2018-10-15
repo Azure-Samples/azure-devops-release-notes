@@ -1,0 +1,12 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "StorageAccountConnectionString": "UseDevelopmentStorage=true",
+    "OrganizationURL": "",
+    "AccessToken": "",
+    "ProjectName": "",
+    "Username": ""
+  }
+}
