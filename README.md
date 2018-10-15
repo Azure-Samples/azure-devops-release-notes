@@ -20,7 +20,7 @@ The generator is a [function app](https://docs.microsoft.com/en-us/azure/azure-f
 - [Azure DevOps Project](https://docs.microsoft.com/en-us/azure/devops/organizations/projects/create-project?WT.mc_id=demo-functions-jasmineg)
 - [Azure Storage Explorer](https://docs.microsoft.com/en-us/azure/vs-azure-tools-storage-manage-with-storage-explorer?WT.mc_id=demo-functions-jasmineg)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/)
-- [Azure Functions and WebJob Tools Visual Studio Extension](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#update-your-tools?WT.mc_id=demo-functions-jasmineg)
+- [Azure Functions and WebJob Tools for Visual Studio](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs#update-your-tools?WT.mc_id=demo-functions-jasmineg)
 
 ## Visual Studio Quickstart
 
