@@ -27,8 +27,8 @@ namespace ADOReleaseNotes
             string releaseName = data?.resource?.release?.name;
             string releaseBody = data?.resource?.release?.description;
 
-            VssBasicCredential credentials = new VssBasicCredential(Environment.GetEnvironmentVariable("Username"), Environment.GetEnvironmentVariable("AccessToken"));
-            VssConnection connection = new VssConnection(new Uri(Environment.GetEnvironmentVariable("OrganizationURL")), credentials);
+            VssBasicCredential credentials = new VssBasicCredential(Environment.GetEnvironmentVariable("DevOps.Username"), Environment.GetEnvironmentVariable("DevOps.AccessToken"));
+            VssConnection connection = new VssConnection(new Uri(Environment.GetEnvironmentVariable("DevOps.OrganizationURL")), credentials);
 
             //Time span of 14 days from today
             var dateSinceLastRelease = DateTime.Today.Subtract(new TimeSpan(14, 0, 0, 0));
@@ -52,7 +52,7 @@ namespace ADOReleaseNotes
 
         public static string GetClosedItems(VssConnection connection, DateTime releaseSpan)
         {
-            string project = Environment.GetEnvironmentVariable("ProjectName");
+            string project = Environment.GetEnvironmentVariable("DevOps.ProjectName");
             var workItemTrackingHttpClient = connection.GetClient<WorkItemTrackingHttpClient>();
             
             //Query that grabs all of the Work Items marked "Done" in the last 14 days
@@ -96,7 +96,7 @@ namespace ADOReleaseNotes
 
         public static string GetMergedPRs(VssConnection connection, DateTime releaseSpan)
         {
-            string projectName = Environment.GetEnvironmentVariable("ProjectName");
+            string projectName = Environment.GetEnvironmentVariable("DevOps.ProjectName");
             var gitClient = connection.GetClient<GitHttpClient>();
 
             using (gitClient)
