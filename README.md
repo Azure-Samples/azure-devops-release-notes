@@ -69,10 +69,10 @@ _Publishing from Visual Studio_
 | Setting      | Location   | Description                                |
 | ------------ |  ----------- | -------------------------------------------------- |
 | **StorageAccountConnectionString** | Highlight created storage account in Azure Storage Explorer, locate its properties at the bottom left, labeled **Primary Connection String** | Keys and other information required to establish a connection to a storage account |
-| **OrganizationURL** | Browser address bar | Url of your Azure DevOps Organization: _https://dev.azure.com/orgname/_ |
-| **AccessToken** |  In Azure DevOps: On the top right of project, click on your profile then **Security** > **Access Tokens** > **+ New Token**. Set Read permissions on **Code** and **Work Items**. For more detailed instructions, visit [Create personal access tokens to authenticate access](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate#create-personal-access-tokens-to-authenticate-access?WT.mc_id=demo-functions-jasmineg).  | Required authorization token to access project information.  |
-| **ProjectName** | Azure DevOps Project | Name of the project to generate release notes from.  |
-| **Username** | Azure DevOps profile, usually an email address. | Username for Azure DevOps. |
+| **DevOps.OrganizationURL** | Browser address bar | Url of your Azure DevOps Organization: _https://dev.azure.com/orgname/_ |
+| **DevOps.AccessToken** |  In Azure DevOps: On the top right of project, click on your profile then **Security** > **Access Tokens** > **+ New Token**. Set Read permissions on **Code** and **Work Items**. For more detailed instructions, visit [Create personal access tokens to authenticate access](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate#create-personal-access-tokens-to-authenticate-access?WT.mc_id=demo-functions-jasmineg).  | Required authorization token to access project information.  |
+| **DevOps.ProjectName** | Azure DevOps Project | Name of the project to generate release notes from.  |
+| **DevOps.Username** | Azure DevOps profile, usually an email address. | DevOps.Username for Azure DevOps. |
 
 3. Click **Ok** then copy the **Site URL**. Save for later.
 
