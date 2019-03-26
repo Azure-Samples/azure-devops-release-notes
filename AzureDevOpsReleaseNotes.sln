@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOReleaseNotes", "ADOReleaseNotes\ADOReleaseNotes.csproj", "{E92517EA-AA39-43EC-965C-04E371715592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADOReleaseNotes", "AzureDevOpsReleaseNotes\AzureDevOpsReleaseNotes.csproj", "{E92517EA-AA39-43EC-965C-04E371715592}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

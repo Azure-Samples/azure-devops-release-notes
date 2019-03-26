@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
-namespace ADOReleaseNotes
+namespace AzureDevOpsReleaseNotes
 {
     public static class ReleaseNotesWebHook
     {
