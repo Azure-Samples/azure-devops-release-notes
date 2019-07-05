@@ -1,7 +1,11 @@
 ---
-services: functions, devops, storage
-platforms: dotnet
-author: paladique
+languages: []
+products:
+- azure
+- azure-functions
+- azure-devops
+- azure-storage
+topic: sample
 ---
 
 # Azure DevOps Release Notes Generator
