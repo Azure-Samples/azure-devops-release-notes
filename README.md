@@ -6,7 +6,8 @@ products:
 - azure-functions
 - azure-devops
 - azure-storage
-topic: sample
+page_type: sample
+description: "A release notes generator for Azure DevOps."
 ---
 
 # Azure DevOps Release Notes Generator
